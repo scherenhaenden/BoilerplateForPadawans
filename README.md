@@ -35,9 +35,17 @@ I have absolutly no idea. Visualstudio might help you, I think.
 
 -C#
 
+## How to use?
+Take a look into the [HowToUse](https://github.com/scherenhaenden/BoilerplateForPadawans/tree/master/HowToUse) directory
+
+
 ## What is ready?
-- [X] Readme
-- [ ] Create Angular Projet
-- [ ] Create a BackendProjt
-- [ ] Set links with information needed
+- [X] Add how to use directory
+
+How to use files:
+- [X] Git
+- [ ] Node.js
+- [ ] NPM
+- [ ] Angular
+- [ ] C#
 
