@@ -18,13 +18,21 @@ I have absolutly no idea. Visualstudio might help you, I think.
 ## What you can learn from this repository (at least the things that are planed at the moment I wrote this Readme)
 
 -Git
+
 -OOD 
+
 -SOLID
+
 -MVVM
+
 -Angular
+
 -REST
+
 -Repository Pattern
+
 -Typescript
+
 -C#
 
 ## What is ready?
