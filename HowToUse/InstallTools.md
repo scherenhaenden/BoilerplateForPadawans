@@ -91,3 +91,83 @@ foo@bar:~$ cd ./BoilerplateForPadawans
 
 
 
+# HOW TO USE Node.js
+- [X] How to install
+- [X] How to use it
+- [X] Add important links
+
+## Installing *Git* on *Linux*
+
+
+### *Debian*-based linux systems
+
+**[Open a terminal window](https://help.ubuntu.com/community/UsingTheTerminal). Copy & paste the following** into the terminal window and **hit `Return`**. You may be prompted to enter your password.
+
+```shell
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nodejs
+```
+
+**You can use *Node.js* now.**
+
+
+### *Red Hat*-based linux systems
+
+**Open a terminal. Copy & paste the following** into the terminal window and **hit `Return`**. You may be prompted to enter your password.
+
+```shell
+sudo yum upgrade
+sudo yum install nodejs
+```
+
+**You can use *Node.js* now.**
+
+## Installing *Node.js* on a *Mac*
+
+[Open a terminal window](http://www.youtube.com/watch?v=zw7Nd67_aFw).
+
+**Copy & paste the following** into the terminal window and **hit `Return`**.
+
+```shell
+brew install node
+```
+
+**You can use *Node.js* now.**
+
+## Installing *Node.js* on Windows
+
+1. **Download** *Node.js* from [Node.js](https://nodejs.org/) and **install Git Bash**.
+
+**You can use *Node.js* now.**
+
+## Test NPM
+
+**open a shell and type**
+
+```shell
+npm -v
+```
+
+# Angular-CLI
+
+- [X] How to install it
+- [X] How to use it
+- [X] Add important links
+
+## Install Angular-CLI
+
+**open a shell and type**
+
+```shell
+npm install -g @angular/cli
+```
+
+## How to use it
+ 
+```shell
+ng new project
+```
+
+
+
