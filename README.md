@@ -35,6 +35,10 @@ I have absolutly no idea. Visualstudio might help you, I think.
 
 -C#
 
+-SQL
+
+-Java
+
 ## How to use?
 Take a look into the [HowToUse](https://github.com/scherenhaenden/BoilerplateForPadawans/tree/master/HowToUse) directory
 
@@ -48,4 +52,6 @@ How to use in MD:
 - [X] NPM
 - [X] Angular
 - [ ] C#
+- [ ] SQL
+- [ ] Java
 
