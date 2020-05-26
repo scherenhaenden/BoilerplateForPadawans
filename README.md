@@ -42,10 +42,10 @@ Take a look into the [HowToUse](https://github.com/scherenhaenden/BoilerplateFor
 ## What is ready?
 - [X] Add how to use directory
 
-How to use files:
+How to use in MD:
 - [X] Git
-- [ ] Node.js
-- [ ] NPM
-- [ ] Angular
+- [x] Node.js
+- [X] NPM
+- [X] Angular
 - [ ] C#
 
