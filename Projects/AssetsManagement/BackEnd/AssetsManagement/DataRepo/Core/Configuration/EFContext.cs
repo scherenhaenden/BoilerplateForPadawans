@@ -1,10 +1,12 @@
 ﻿using System;
+using System.IO;
 using DataRepo.Controllers.Domain;
+using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataRepo.Controllers.Configuration
 {
-    public class EFContext: DbContext
+    public class EFContext : DbContext
     {
         private readonly string connectionString;
 
@@ -24,6 +26,11 @@ namespace DataRepo.Controllers.Configuration
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            /*var sqlitePath = Path.Combine(Environment
+          .GetFolderPath(Environment.SpecialFolder.ApplicationData), @"OlsonSoftware\FinanceManager"); Directory
+              .CreateDirectory(sqlitePath); var fileName = $"{sqlitePath}\fmd.db"; if (!File.Exists(fileName)) File.Create(fileName);
+               optionsBuilder.UseSqlite($"Data Source={fileName}");*/
+
             optionsBuilder.UseSqlite(connectionString);
         }
 
