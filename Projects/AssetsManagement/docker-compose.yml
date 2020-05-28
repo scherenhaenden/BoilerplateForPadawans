@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build: container-config
+    
+  
+    ports:
+      - "8082:80"
+      - "9123:443"
+      - "9124:8081"
+    volumes:
+      - ./BackEnd/AssetsManagement/AssetsManagement/:/var/www/assets-management/
+      
