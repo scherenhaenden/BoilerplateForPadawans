@@ -26,11 +26,6 @@ namespace DataRepo.Controllers.Configuration
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            /*var sqlitePath = Path.Combine(Environment
-          .GetFolderPath(Environment.SpecialFolder.ApplicationData), @"OlsonSoftware\FinanceManager"); Directory
-              .CreateDirectory(sqlitePath); var fileName = $"{sqlitePath}\fmd.db"; if (!File.Exists(fileName)) File.Create(fileName);
-               optionsBuilder.UseSqlite($"Data Source={fileName}");*/
-
             optionsBuilder.UseSqlite(connectionString);
         }
 
