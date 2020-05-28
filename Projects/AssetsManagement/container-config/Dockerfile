@@ -7,21 +7,17 @@
  FROM ubuntu:18.04 
  
 # 2.-
-RUN apt-get -qq clean
-  
- RUN apt-get -qq update
- 
- RUN apt-get -qq -y install apt-utils
- RUN apt-get -qq -y update
- RUN apt-get -qq -y install sudo libterm-readline-gnu-perl apache2 iputils-ping net-tools
- 
- 
- RUN apt-get -qq -y install autoconf build-essential git-core libtool unzip
- RUN apt-get -qq -y install ssh bash apt-utils apt-transport-https software-properties-common curl supervisor vim apt-utils
- RUN apt-get -qq -y dist-upgrade
- RUN apt-get -qq update
- 
- 
+RUN apt-get -qq clean  
+RUN apt-get -qq update
+
+RUN apt-get -qq -y install apt-utils
+RUN apt-get -qq -y update
+RUN apt-get -qq -y install sudo libterm-readline-gnu-perl apache2 iputils-ping net-tools
+
+RUN apt-get -qq -y install autoconf build-essential git-core libtool unzip
+RUN apt-get -qq -y install ssh bash apt-utils apt-transport-https software-properties-common curl supervisor vim apt-utils
+RUN apt-get -qq -y dist-upgrade
+RUN apt-get -qq update 
  
 RUN sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF 
 RUN sudo apt install apt-transport-https
