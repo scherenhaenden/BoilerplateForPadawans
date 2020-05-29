@@ -189,6 +189,7 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="ApiPublic\Home\HomeController.cs" />
+    <Compile Include="Tools\LoadLib\NativeLibraryHack.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataRepo\DataRepo.csproj">
@@ -199,6 +200,8 @@
   <ItemGroup>
     <Folder Include="ApiPublic\" />
     <Folder Include="ApiPublic\Home\" />
+    <Folder Include="Tools\" />
+    <Folder Include="Tools\LoadLib\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
