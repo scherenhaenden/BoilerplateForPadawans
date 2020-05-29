@@ -13,15 +13,7 @@ namespace AssetsManagement
     {
         public void button1Clicked(object sender, EventArgs args)
         {
-            button1.Text = "You clicked me";
-
-            /*var sqlitePath = Path.Combine(Environment
-            .GetFolderPath(Environment.SpecialFolder.ApplicationData), @"OlsonSoftware\FinanceManager"); Directory
-                .CreateDirectory(sqlitePath); var fileName = $"{sqlitePath}\fmd.db"; if (!File.Exists(fileName)) File.Create(fileName);
-                 optionsBuilder.UseSqlite($"Data Source={fileName}");*/
-            var currentDirectory = System.IO.Directory.GetCurrentDirectory();
-
-            //var hf= System.IO.Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+            var currentDirectory = Directory.GetCurrentDirectory();
             NativeLibraryHack.DoHack();
             _ = new EFContext($"Data Source={currentDirectory}/blogging.db");
 
