@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AssetsViewComponent } from './views/assets-view/assets-view.component';
+import { LoginComponent } from './views/login/login.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AssetsViewComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
